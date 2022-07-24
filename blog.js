@@ -36,7 +36,7 @@ for await (const entry of walk('./posts/')) {
 }
 
 let listposts = ''
-console.log(posts)
+
 posts.sort((a,b) => a.publish_date - b.publish_date)
 
 for await (const post of posts) {
