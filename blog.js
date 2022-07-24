@@ -21,28 +21,29 @@ let homepage = {
   markdown: 'List of posts goes here'
 }
 
-async function genposts (dir) {
-  for await (const entry of walk(dir)) {
-    console.log(entry.path)
-    if (entry.name.endsWith('md')) {
-      const post = await Deno.readTextFile(entry.path)
-      const parsed = parseAll(post)
-      parsed[0].content = parsed[1]
-      const split = entry.name.split('.')
-      parsed[0].markdown = '<p>' + parsed[0].publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</p>' + render(parsed[0].content)
-      parsed[0].name = split[0]
-      posts.push(parsed[0])
-      postnames.push(parsed[0].name)
-      postStore.set(parsed[0].name, parsed[0])
-    }
+for await (const entry of walk('./posts/')) {
+  console.log(entry.path)
+  if (entry.name.endsWith('md')) {
+    const post = await Deno.readTextFile(entry.path)
+    const parsed = parseAll(post)
+    parsed[0].content = parsed[1]
+    const split = entry.name.split('.')
+    parsed[0].markdown = '<p>' + parsed[0].publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</p>' + render(parsed[0].content)
+    parsed[0].name = split[0]
+    posts.push(parsed[0])
+    postnames.push(parsed[0].name)
+    postStore.set(parsed[0].name, parsed[0])
   }
-  let listposts = ''
-  for await (const post of posts) {
-    listposts = listposts + '<li><a href="/' + post.name + '">' + post.title + '</a> — ' + post.publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</li>'
-  }
-  homepage.markdown = '<ul>' + listposts + '</ul>'
-  postStore.set('/', homepage)
 }
+
+let listposts = ''
+
+for await (const post of posts) {
+  listposts = listposts + '<li><a href="/' + post.name + '">' + post.title + '</a> — ' + post.publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</li>'
+}
+
+homepage.markdown = '<ul>' + listposts + '</ul>'
+postStore.set('/', homepage)
 
 async function genlinks (links) {
   for (const link of links) {
@@ -83,7 +84,7 @@ function handle (config, postname) {
 }
 
 export function blog (config) {
-  genposts('./posts/')
+  //genposts('./posts/')
   if (config && config.links) {
     genlinks(config.links)
   }
