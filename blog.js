@@ -36,9 +36,11 @@ for await (const entry of walk('./posts/')) {
 }
 
 let listposts = ''
+console.log(posts)
+posts.sort((a,b) => a.publish_date - b.publish_date)
 
 for await (const post of posts) {
-  listposts = listposts + '<li><a href="/' + post.name + '">' + post.title + '</a> — ' + post.publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</li>'
+  listposts = '<li><a href="/' + post.name + '">' + post.title + '</a> — ' + post.publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</li>' + listposts
 }
 
 homepage.markdown = '<ul>' + listposts + '</ul>'
