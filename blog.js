@@ -26,7 +26,7 @@ async function genposts (dir) {
   for await (const entry of walk(dir)) {
     console.log(entry.path)
     if (entry.name.endsWith('md')) {
-      const post = Deno.readTextFileSync(entry.path)
+      const post = await Deno.readTextFile(entry.path)
       const parsed = parseAll(post)
       parsed[0].content = parsed[1]
       const split = entry.name.split('.')
