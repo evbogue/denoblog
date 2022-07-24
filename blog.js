@@ -1,6 +1,6 @@
 import { parseAll } from "https://deno.land/std@0.149.0/encoding/yaml.ts"
 import { serveDir } from "https://deno.land/std@0.149.0/http/file_server.ts"
-import { listenAndServe } from "https://deno.land/std/http/server.ts"
+import { serve } from "https://deno.land/std@0.149.0/http/server.ts"
 import { walk, walkSync } from "https://deno.land/std@0.149.0/fs/mod.ts"
 import { render } from "https://deno.land/x/gfm/mod.ts"
 
@@ -20,7 +20,6 @@ let homepage = {
   title: 'Posts',
   markdown: 'List of posts goes here'
 }
-
 
 async function genposts (dir) {
   for await (const entry of walk(dir)) {
@@ -77,7 +76,7 @@ function handle (config, postname) {
     <h1><a href="/">${config.title || 'My Deno Blog'}</a></h1>
     <h6>${config.description || 'This is my blog description.'}</h6>
     <hr />
-    <ul>${linklist}</ul>
+    <ul>${linklist || 'Links'}</ul>
     </div>
     <div class='col eight off-one'>
       <h2>${post.title || 'Posts'}</h2>
@@ -88,9 +87,11 @@ function handle (config, postname) {
 }
 
 export function blog (config) {
-  genlinks(config.links)
   genposts('./posts/')
-  listenAndServe(':8000', (req) => {
+  if (config && config.links) {
+    genlinks(config.links)
+  }
+  serve(req => {
     const url = new URL(req.url)
     const postname = url.pathname.substring(1).split('.')[0]
     if (url.pathname == '/index.html' || url.pathname == '/') {
@@ -100,6 +101,6 @@ export function blog (config) {
     } else {
       return serveDir(req, {fsRoot: '', showDirListing: true, quiet: true})
     }
-  })
+  }, {port: 8000})
 }
 
