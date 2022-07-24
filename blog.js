@@ -1,12 +1,19 @@
-import { serve } from 'https://deno.land/std@0.137.0/http/server.ts'
-import { serveDir } from "https://deno.land/std@0.144.0/http/file_server.ts"
+import { parse } from "https://deno.land/std@0.149.0/encoding/yaml.ts"
+import { serveDir } from "https://deno.land/std@0.149.0/http/file_server.ts"
 import { listenAndServe } from "https://deno.land/std/http/server.ts"
+import { walk, walkSync } from "https://deno.land/std@0.149.0/fs/mod.ts";
 
 const routes = ['']
 
 const headers = {headers : {"content-type": "text/html; charset=utf-8"}}
 
 let linklist = ''
+
+async function genposts (dir) {
+  for await (const entry of walk(dir)) {
+    console.log(entry.path)
+  }
+}
 
 function genlinks (links) {
   if (links.length) { 
@@ -47,6 +54,7 @@ function handle (config, url) {
 
 export function blog (config) {
   genlinks(config.links)
+  genposts('./posts/')
   listenAndServe(':8000', (req) => {
     const url = new URL(req.url)
     if (url.pathname == '/index.html' || url.pathname == '/') {
@@ -55,6 +63,5 @@ export function blog (config) {
       return serveDir(req, {fsRoot: '', showDirListing: true, quiet: true})
     }
   })
-  //serve(() => new Response(handle(config), headers))
 }
 
