@@ -22,7 +22,6 @@ let homepage = {
 }
 
 for await (const entry of walk('./posts/')) {
-  console.log(entry.path)
   if (entry.name.endsWith('md')) {
     const post = await Deno.readTextFile(entry.path)
     const parsed = parseAll(post)
@@ -52,9 +51,7 @@ async function genlinks (links) {
 }
 
 function handle (config, postname) {
-  console.log(postname) 
   const post = postStore.get(postname)
-  console.log(post)
   const head = `
     <html>
       <head>
