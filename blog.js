@@ -44,13 +44,9 @@ async function genposts (dir) {
   postStore.set('/', homepage)
 }
 
-
-
 async function genlinks (links) {
-  if (links.length) { 
-    links.forEach(link => {
-      linklist = linklist + '<li><a href="' + link.url + '">' + link.title + '</a></li>'
-    })
+  for (const link of links) {
+    linklist = linklist + '<li><a href="' + link.url + '">' + link.title + '</a></li>'
   }
 }
 
