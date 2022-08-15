@@ -1,4 +1,4 @@
-import { parseAll } from "https://deno.land/std@0.149.0/encoding/yaml.ts"
+import { parse } from "https://deno.land/std@0.149.0/encoding/yaml.ts"
 import { serveDir } from "https://deno.land/std@0.149.0/http/file_server.ts"
 import { serve } from "https://deno.land/std@0.149.0/http/server.ts"
 import { walk, walkSync } from "https://deno.land/std@0.149.0/fs/mod.ts"
@@ -24,14 +24,15 @@ let homepage = {
 for await (const entry of walk('./posts/')) {
   if (entry.name.endsWith('md')) {
     const post = await Deno.readTextFile(entry.path)
-    const parsed = parseAll(post)
-    parsed[0].content = parsed[1]
+    const findYAML = post.split('---')
     const split = entry.name.split('.')
-    parsed[0].markdown = '<p>' + parsed[0].publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</p>' + render(parsed[0].content)
-    parsed[0].name = split[0]
-    posts.push(parsed[0])
-    postnames.push(parsed[0].name)
-    postStore.set(parsed[0].name, parsed[0])
+    const parsed = parse(findYAML[1])
+    parsed.content = findYAML[2]
+    parsed.name = split[0]
+    parsed.markdown = '<p>' + parsed.publish_date.toLocaleString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}) + '</p>' + render(parsed.content)
+    posts.push(parsed)
+    postnames.push(parsed.name)
+    postStore.set(parsed.name, parsed)
   }
 }
 
