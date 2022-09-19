@@ -31,7 +31,7 @@ So yes, go ahead and blog to centralized platforms that are owned by venture cap
 
 Or you could write your own blogging platform yourself, and then you can sell it to investors if you ever run into one on the street or perhaps one of them will give you a call one day. You never know, most things don't happen but there is always the possibility that something will and if you are not open to the idea of someone investing massive amounts of cash on your blog or your code then probably no one ever will. 
 
-What I'm trying to blog here is that there are people will massive amount of cash, and perhaps if you blog more they will give you some of it. The information superhighway is still being built one line of code at a time, and blogs are still being written one word at at ime. 
+What I'm trying to blog here is that there are people will massive amount of cash, and perhaps if you blog more they will give you some of it. The information superhighway is still being built one line of code at a time, and blogs are still being written one word at at time. 
 
 + Four. If nothing else, just write a blog post.
 
