@@ -59,7 +59,7 @@ function handle (config, postname) {
     <html>
       <head>
         <title>${config.title || 'My Deno Blog'}</title>
-        <link rel='stylesheet' href='./reserva.css' type='text/css' />
+        <link rel='stylesheet' href='../reserva.css' type='text/css' />
       </head>
       <body style="background: ${config.background || '#fff'};">
       <div class='contain'>
@@ -90,7 +90,11 @@ export function blog (config) {
   }
   serve(req => {
     const url = new URL(req.url)
-    const postname = url.pathname.substring(1).split('.')[0]
+    let postname = url.pathname.substring(1).split('.')[0]
+    if (postname.endsWith('/')) {
+      postname = postname.substring(0, postname.length - 1) 
+    }
+    console.log(postname)
     if (url.pathname == '/index.html' || url.pathname == '/') {
       return new Response(handle(config, '/'), headers)
     } else if (postnames.includes(postname)) { 
