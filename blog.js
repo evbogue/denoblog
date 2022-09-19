@@ -94,7 +94,6 @@ export function blog (config) {
     if (postname.endsWith('/')) {
       postname = postname.substring(0, postname.length - 1) 
     }
-    console.log(postname)
     if (url.pathname == '/index.html' || url.pathname == '/') {
       return new Response(handle(config, '/'), headers)
     } else if (postnames.includes(postname)) { 
