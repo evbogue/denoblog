@@ -39,7 +39,7 @@ But copy and pasting your code does not really make you a coder, and just readin
 
 + Four. Don't write about politics and/or the CovID narrative.
 
-After four or five years of hearing about CovID shots, boosters, and other associated propoganda it is time for a change that we can believe in. Save the Internet from having more garbage published to it by just avoiding partison American politics and the poor Doctors, nurses and the rest of us who have become the victims in whatever this twenty year narrative arc will result in.
+After four or five years of hearing about CovID shots, boosters, and other associated propaganda it is time for a change that we can believe in. Save the Internet from having more garbage published to it by just avoiding partison American politics and the poor Doctors, nurses and the rest of us who have become the victims in whatever this twenty year narrative arc will result in.
 
 Choose a new narrative arc for your blog, because arging about whether your mask is on or off or whether we should force medication on people before Christmas is sooooooo 2019 and it is 2022 now it is time to get on with building the economy back from scratch after some politicans turned it off for no good reason. 
 
@@ -69,7 +69,7 @@ Yes, the coffee is running down but I have told myself that I will make more cof
 
 + Nine. Write something, it doesn't have to be all that Interesting.
 
-If you read any of the above lines and though they were Interesting I will encourage you to send me an email and tell me why you thought they were interesting. As I've stated before this blog is not trying to be the most brilliant blog on the planet, what it is trying to do is to be a regular blog, and a regular blog doesn't necessarily have to be the most brilliant blog. Perhaps the most brilliant blog is no blog at all, which is what most people have, and are most people brilliant? How would you know, they are not blogging.
+If you read any of the above lines and thought they were Interesting I will encourage you to send me an email and tell me why you thought they were interesting. As I've stated before this blog is not trying to be the most brilliant blog on the planet, what it is trying to do is to be a regular blog, and a regular blog doesn't necessarily have to be the most brilliant blog. Perhaps the most brilliant blog is no blog at all, which is what most people have, and are most people brilliant? How would you know, they are not blogging.
 
 + Ten. Ask people what they want to hear about.
 
