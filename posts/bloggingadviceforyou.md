@@ -31,7 +31,7 @@ Some people don't drink coffee, but I will seriously suggest that you try drinki
 
 + Three. Turn off your Internet while you are writing.
 
-Nothing will stop your blog from getting written more than checking Hacker News fourteen times before you post is written. Or the real news, which is even worse. If you turn off your Internet before you begin blogging you can always turn it back on later when you need to fill in hyperlinks or relevent content details that require research. Better yet, don't write anything that requires hyperlinks or research, then you can just keep writing and nothing will make you have to stop and check on the source documentation. 
+Nothing will stop your blog from getting written more than checking Hacker News fourteen times before your post is written. Or the real news, which is even worse. If you turn off your Internet before you begin blogging you can always turn it back on later when you need to fill in hyperlinks or relevent content details that require research. Better yet, don't write anything that requires hyperlinks or research, then you can just keep writing and nothing will make you have to stop and check on the source documentation. 
 
 This can work surprisingly well even when you are coding. I've found that I am way more productive even as a coder with my Internet turned off, because I am forced to think about how the program actually works. I might not implement the most perfect lines of code while my Internet is off, because I can't just quick type my coding question into a search engine and get a giant thread about how to do x y and z in JavaScript back with the perfect answer. 
 
