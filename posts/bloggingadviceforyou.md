@@ -25,7 +25,7 @@ For example if you started a blog today called "blogging blog" and then you deci
 
 + Two. Wake up early to write every day.
 
-I don't know about you, but I have trouble writing the later it gets in the day. So much has happened, and I get tired and when I'm tired I am no good at keeping my fingers moving while I am writing my post. My best and probably brightest suggestion to you if you are going to write a blog is to wake up an hour or two earlier that you normally do and start blogging before you do anything else. All you need is coffee, and you will have the power that you need to get your blog started in the morning.
+I don't know about you, but I have trouble writing the later it gets in the day. So much has happened, and I get tired and when I'm tired I am no good at keeping my fingers moving while I am writing my post. My best and probably brightest suggestion to you if you are going to write a blog is to wake up an hour or two earlier than you normally do and start blogging before you do anything else. All you need is coffee, and you will have the power that you need to get your blog started in the morning.
 
 Some people don't drink coffee, but I will seriously suggest that you try drinking coffee if you also want to start blogging because there is nothing like drinking coffee to get your blog started in the morning. Or maybe you can drink water or tea or an energy drink, but over here it will be coffee that is drank in the morning while writing this blog.
 
