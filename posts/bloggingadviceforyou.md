@@ -21,7 +21,7 @@ Blogs about blogging are well, blogs about blogging. Eventually everyone needs t
 
 If you decided to change topics maybe choosing a name for your blog that is flexible will let you more easily change topics if your interests change over time.
 
-For example if you started a blog today called "blogging blog" and then you decide to writing about coding, well you will now need to change your blog title to "coding blog". If you keep the title more esoteric like "my blog" then you will have less blog title changes to make in the future. 
+For example if you started a blog today called "blogging blog" and then you decide to write about coding, well you will now need to change your blog title to "coding blog". If you keep the title more esoteric like "my blog" then you will have less blog title changes to make in the future. 
 
 + Two. Wake up early to write every day.
 
