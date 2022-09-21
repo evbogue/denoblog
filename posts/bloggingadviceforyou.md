@@ -11,7 +11,7 @@ The challenges related to blogging are mostly self-imposed and/or cultural barri
 
 But I can tell you that as long as there are people with eyeballs and screens there will be people who want to read blogs. 
 
-In fact, now is the time to start blogging again, because there are so few people left in the blogosphere that you will gain readers simply becasue no one else is blogging anymore.
+In fact, now is the time to start blogging again, because there are so few people left in the blogosphere that you will gain readers simply because no one else is blogging anymore.
 
 Should you choose to start a blog I have some blogging advice for you. You don't have to follow my advice, but if you do I promise that your blog will be much more successful or you will just quit blogging after two posts anyway because that is what most people do. But you are not most people, and I am not most people. Most people just read blogs, but you and I are the ones who are crazy enough to write them.
 
