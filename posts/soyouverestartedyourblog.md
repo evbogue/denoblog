@@ -47,4 +47,4 @@ But getting people to read your blog is of course the challenge of blogging. For
 
 -
 
-So what do you think? Drop me an email at [ev@evbogue.com](mailto:ev@evbogue.com) and if you want to subscribe then send your email with the all caps subject line 'SUBSCRIBE' and you will be forwarded to the space in front of my eyes and I will add you to a file where I keep a list of all of the email addresses and whenever I post a new post I will right now write you a hand written note asking your to please come read my new piece.
+So what do you think? Drop me an email at [ev@evbogue.com](mailto:ev@evbogue.com) and if you want to subscribe then send your email with the all caps subject line 'SUBSCRIBE' and you will be forwarded to the space in front of my eyes and I will add you to a file where I keep a list of all of the email addresses and whenever I post a new post I will write you a hand written note asking your to please come read my new piece.
