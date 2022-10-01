@@ -36,7 +36,7 @@ if ('caches' in window) {
 }
 ```
 
-In the past I wasn't able to figure out how to store this keypair using the exactly the same API in the browser and on the server.
+In the past I wasn't able to figure out how to store this keypair using exactly the same API in the browser and on the server.
 
 My idea for a future distributed social network is to then reach out over the network looking for a 44 character hash of a pubkey or a post and then cache the response once we have it so we do not have to reach over the network again to discover posts.
 
