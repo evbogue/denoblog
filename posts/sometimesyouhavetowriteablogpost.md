@@ -1,6 +1,6 @@
 ---
 title: Sometimes you have to write a blog post
-publish_date: 2022-10-09
+publish_date: 2022-10-08
 ---
 
 You know, it's difficult to blog sometimes. You might feel as if the platform is obsolete, and that no one has quite figured out the tools to replace yet. Or you wonder if you will accidentially write something that is important, or game changing, or perhaps even mundane in a way that annoys everyone. You might have spent all day pretending to do anything at all while quietly writing blog posts in your head only to discover that now that it is time to write a blog post that there is simply no blog post coming out.
