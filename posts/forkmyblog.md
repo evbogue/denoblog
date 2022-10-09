@@ -3,11 +3,11 @@ title: Fork my blog
 publish_date: 2022-10-09
 ---
 
-Sometimes people think that they should ask me about how to become a programmer. And I think about I might respond to them if they did! 
+Sometimes people think that they should ask me about how to become a programmer. And I think about how I might respond to them if they did! 
 
 And here is my advice: fork my blog. 
 
-Many of the times that I've learned the most about programming was because I forked a project that wasn't going in the direction of my dreams. So instead of biting my tongue and going in the direction of other people's dreams I instead forked the project. When you a fork a programming project suddenly the entire project rests upon your shoulders, and it is amazing how hefty many open source programming projects are! Then, strip away the bits that are just added for Green Dots on Github and try to get the simplicity of the program. What does this program do? How can it do it better? And most importantly how many lines of code can you delete?
+Many of the times that I've learned the most about programming was because I forked a project that wasn't going in the direction of my dreams. So instead of biting my tongue and going in the direction of other people's dreams I instead forked the project. When you fork a programming project suddenly the entire project rests upon your shoulders, and it is amazing how hefty many open source programming projects are! Then, strip away the bits that are just added for Green Dots on Github and try to get the simplicity of the program. What does this program do? How can it do it better? And most importantly how many lines of code can you delete?
 
 I'll invite you to do that right now with my blog. You will need Deno to run it, but that isn't hard to get. And then go ahead and change the profile photo to your own.
 
