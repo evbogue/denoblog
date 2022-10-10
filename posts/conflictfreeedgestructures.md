@@ -9,7 +9,7 @@ And yes, it's true, if your program software deploys REALLY FAST IN JAPAN but yo
 
 However, I think there is another way to look at it that makes things much more useful to everyone. 
 
-First of all, calling it Edge Computing is kind of trendy but inaccurate. Clouds are in the sky, and do not contain computers, and there is an edge on my dull knife and I need to sharpen it but putting a program that starts VERY FAST IN BERLIN! and directs JavaScripts to the pocket of a person's phone in Mitte is not really an edge. And a JavaScript isolate is not really a CDN, it is a browser tab that is being launcher closer to Berlin than my browser tab is being launched. 
+First of all, calling it Edge Computing is kind of trendy but inaccurate. Clouds are in the sky, and do not contain computers, and there is an edge on my dull knife and I need to sharpen it but putting a program that starts VERY FAST IN BERLIN! and directs JavaScripts to the pocket of a person's phone in Mitte is not really an edge. And a JavaScript isolate is not really a CDN, it is a browser tab that is being launched closer to Berlin than my browser tab is being launched. 
 
 And maybe we do not have the best wording for this type of software yet. p2p is kind of tired and old and smells of GNUtella. IPFS is boggier than bog book, and will not reach Mars anytime soon. 
 
