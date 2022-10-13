@@ -1,6 +1,6 @@
 ---
 title: What should I write about today
-publish_date: 2022-10-11
+publish_date: 2022-10-12
 ---
 
 It's getting late. I'm tired. I don't feel inspired. I've read all the news and who really cares. Should I write about the soviet civil war, or the rising prices? Should I write about minimalism or computer programming or minimalist computer programming?
