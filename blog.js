@@ -66,7 +66,7 @@ function handle (config, postname) {
       <div class='contain'>
   `
 
-  const foot = `<div class="col twelve"></div></div></body></html>`
+  const foot = `<div class="col twelve"><hr></div></div></body></html>`
 
   const content = `
     <div class='col three'>
