@@ -60,7 +60,7 @@ export default {
 
 And then if you navigate to http://localhost:3000/ev you will see "Welcome to Bun! You are at the /ev route." in the browser.
 
-And then it isn't a stretch to throw a conditional in here so that Bun can use different responses to differnet routes.
+And then it isn't a stretch to throw a conditional in here so that Bun can use different responses to different routes.
 
 ```
 export default {
