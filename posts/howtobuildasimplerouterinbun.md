@@ -81,4 +81,4 @@ So now you can write the same app in both Deno on Bun! You just have change a fe
 
 What will you build next? 
 
-And of course stay tuned for tomorrow, when I will teach you how to write the same exact app in Node.js -- the original and slightly slower programmer web server.
+And of course stay tuned for tomorrow, when I will teach you how to write the same exact app in Node.js -- the original and slightly slower programmable web server.
