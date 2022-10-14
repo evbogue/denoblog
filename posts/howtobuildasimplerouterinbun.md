@@ -1,6 +1,6 @@
 ---
 title: How to write a simple router in Bun.sh
-publish_date: 2022-10-15
+publish_date: 2022-10-14
 ---
 
 Ok so [yesterday we learned](./howtobuildasimplerouterindeno) how to create a web app with a router in [Deno](https://deno.land/) which is a newish JavaScript runtime for building web apps. However, we would not be inclusive of all of the JavaScript runtimes if we did not also teach you how to write this same application using the newest and latest and possibly coolest? JavaScript runtime which is of course [bun.sh](https://bun.sh) which has a bun-shaped mascot instead of Ryan Dahl's finger shaped to look like the loch ness monster.
