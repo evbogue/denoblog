@@ -9,7 +9,7 @@ The day before my blog received 657 hits, before that 677 and the day before tha
 
 If you are in the group of people who are hitting ctrl-r on my blog over and over again, I want to suggest to you that you subscribe to my blog by sending an email to me [ev@evbogue.com](mailto:ev@evbogue.com) and I will add you to my list of people who I send a handwritten email to every time I post. This way you aren't wasting your entire day reloading my website waiting for the next post! 
 
-So let's imagine I do have a few hundred or at least 100 readers out there right now who are not bots. What do you want to hear about? I often hear a lot about what you don't want to hear about (Kanye, Elon, and Tech mostly -- surprisingly no one has complained about my repeated use of the phrase "CovID+++" which I thought would rattle some of you but maybe you have natural imminuty to the narrative by now...)
+So let's imagine I do have a few hundred or at least 100 readers out there right now who are not bots. What do you want to hear about? I often hear a lot about what you don't want to hear about (Kanye, Elon, and Tech mostly -- surprisingly no one has complained about my repeated use of the phrase "CovID+++" which I thought would rattle some of you but maybe you have natural immunity to the narrative by now...)
 
 But what _do_ you want to hear about? Send it my way via email: [ev@evbogue.com](mailto:ev@evbogue.com) 
 
