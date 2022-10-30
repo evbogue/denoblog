@@ -89,6 +89,6 @@ generate().then(key => {
 })
 ```
 
-Congrats you know have a distributed self-soverign identifer and can sign your own posts.
+Congrats you now have a distributed self-soverign identifer and in the future we will use it to sign your own posts.
 
 Don't miss out, SUBSCRIBE to my blog by sending an email to ev@evbogue.com and I will send you the next post in which I think we may write ourselves a bogbook post from scratch.
