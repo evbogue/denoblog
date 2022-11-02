@@ -61,6 +61,7 @@ function handle (config, postname) {
         <title>${config.title || 'My Deno Blog'}</title>
         <meta name='viewport' content='width=device-width initial-scale=1' />
         <link rel='stylesheet' href='../reserva.css' type='text/css' />
+        <link rel='stylesheet' href='../custom.css' type='text/css' />
       </head>
       <body style="background: ${config.background || '#fff'};">
       <div class='contain'>
