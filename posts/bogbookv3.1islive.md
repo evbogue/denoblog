@@ -1,6 +1,6 @@
 ---
 title: Bogbook v3.1.0 is live and ready to be tested
-publish_date: 2022-11-7
+publish_date: 2022-11-07
 ---
 
 The new version of Bogbook using Deno and the browser's Cache API is now live at https://bogbook.com/ and https://denobook.com/
