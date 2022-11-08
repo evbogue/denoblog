@@ -20,4 +20,5 @@ So do you want to make my phone buzz?* Either read this: https://ntfy.sh/docs/#s
 Or get yourself a Bogbook keypair and publish a post to https://bogbook.com/ 
 
 *Please note that sometimes I will put my phone on silent because I am working, busy, or sleeping.
- 
+
+**Update! I didn't realize this at the time but you can view and send notifications from the web interface here: https://ntfy.sh/bogbook 
