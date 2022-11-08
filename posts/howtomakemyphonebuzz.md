@@ -3,9 +3,9 @@ title: How to make my phone buzz*
 publish_date: 2022-11-08
 ---
 
-Ever since cellular telephones gain CPUs and LCD screens people have wanted to either turn off push notifications or turn them on again. 
+Ever since cellular telephones gained CPUs and LCD screens people have wanted to either turn off push notifications or turn them on again. 
 
-For some people, they simply do not exist if their phone is not buzzing. And other people cannot focus unless their phone is buzzing! 
+For some people, they simply do not exist if their phone is not buzzing. And other people cannot focus unless their phone is not buzzing! 
 
 When building Bogbook, I wanted a way to make your phone buzz when a new post was published. This way you don't need to check Bogbook all of the time. Bogbook is not the busiest of distributed social networks (yet!) and hitting reload on it all day can be tiresome.
 
