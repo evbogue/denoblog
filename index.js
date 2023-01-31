@@ -5,7 +5,7 @@ blog({
   avatar: '../ev.jpg',
   author: 'Everett Bogue',
   description: "Restarting my blogging career one commit at a time",
-  background: "#f5f5f5",
+  background: "#333",
   links: [
     { title: 'ev@evbogue.com', url: 'mailto:ev@evbogue.com'},
     { title: 'Bogbook 💻', url: 'https://bogbook.com/#ebAzm6zzxkYHdBynPlDfX9+VyKYYLGz7GIoNi9l4SJ0='}, 
